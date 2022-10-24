@@ -1,0 +1,63 @@
+#Register {
+  background: #050a30;
+}
+
+.iframe_logon_icon{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    pointer-events: none;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+
+.prompt {
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    width: 50%;
+    height: 100%;
+} 
+
+.login-input{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 10px 52px 0px 150px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+registerButtonV2{
+    display: inline-flex;
+    position: absolute;
+    justify-content: center;
+    margin: 50px 100px 100px;
+    padding: 25px 40px;
+    border-radius: 15px;
+    font-size: 1.4vw;
+    color: white;
+    border: none;
+    background-color: #051d40;
+    font-weight:500;
+    right: 20%;
+    left: 20%;
+    cursor: pointer;
+}
+
+registerButtonV2:hover{
+    background-color: #0a326f;
+}
+
+.ifUserAlreadyHasAnAccount{
+    width: 40%;
+    font-size: 140%;
+    padding: 6px 10px;
+    margin: 180px 52px 10px 300px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.ifUserAlreadyHasAnAccount:hover{
+    font-size: #0a326f;
+}

@@ -1,0 +1,39 @@
+.App {
+  background: #050a303e;
+  background-color: #050a30;
+}
+
+.StartPage {
+  background: rgb(2,0,36);
+    background: linear-gradient(360deg, rgba(2,0,36,1) 0%, rgba(0,0,23,1) 17%, rgba(14,21,97,1) 100%);
+    height: 100vh;
+}
+
+iframe{
+  width: 100%;
+  height: 60vh;
+  position: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  border: none;
+}
+
+button{
+  margin-bottom: auto;
+  display: inline-flex;
+  position: absolute;
+  justify-content: center;
+  padding: 30px;
+  font-size: 5.5vw;
+  color: white;
+  background-color: #161f5d;
+  font-weight:700;
+  right: 40%;
+  left: 40%;
+  cursor:pointer;
+}
+
+button:hover{
+  background-color: #152480;
+}
